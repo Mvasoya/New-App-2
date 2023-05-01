@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
+// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_declarations, use_key_in_widget_constructors, camel_case_types
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
@@ -11,9 +11,11 @@ class homepage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text("Catalog App")
-          ),
+          centerTitle:true,
+          title: Text("Catalog App",
+          style: TextStyle(
+            color: Colors.black),)
+          
       ),
       body: Center(
         child: Container(
