@@ -1,4 +1,4 @@
-// ignore_for_file: unnecessary_null_comparison, prefer_const_constructors
+// ignore_for_file: unnecessary_null_comparison, prefer_const_constructors, avoid_print
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/items.dart';
@@ -8,6 +8,7 @@ class ItemWidget extends StatelessWidget {
 
   const ItemWidget({super.key, required this.item}) : assert(item != null);
 
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -15,7 +16,7 @@ class ItemWidget extends StatelessWidget {
           onTap: () {
             print("${item.name} pressed");
           },
-          leading: Image.asset(item.image),
+          leading: Image.network(item.image),
           title: Text(item.name),
           subtitle: Text(item.desc),
           trailing: Text("Rs.${item.price}",

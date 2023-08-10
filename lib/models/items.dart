@@ -1,16 +1,10 @@
-class CatalogModel{
-   static final items  = [
-  Item(
-  id: 1, 
-  name: "iPhone 12 pro",    
-  desc: "Good condition and 89% battery health",
-  price: 45999, 
-  color: "#33505a", 
-  image:  "assets/images/12 pro.jpg")
-];
+// ignore_for_file: prefer_typing_uninitialized_variables
 
-  //static var items;
-}
+import 'dart:core';
+
+class CatalogModel {
+  static List<Item>? items;
+} 
 
 class Item {
   final int id;
@@ -20,6 +14,30 @@ class Item {
   final String color;
   final String image;
 
-  Item({required this.id,required this.name,required this.desc,required this.price,required this.color,required this.image});
-}
+  Item(
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.image});
+  factory Item.fromMap(Map<String, dynamic> map) {
+    return Item(
+      id: map["id"],
+      name: map["name"],
+      desc: map["desc"],
+      price: map["price"],
+      color: map["color"],
+      image: map["image"],
+    );
+  }
 
+  toMap() => {
+        "id": id,
+        "name": name,
+        "desc": desc,
+        "price": price,
+        "color": color,
+        "image": image
+      };
+}

@@ -1,0 +1,61 @@
+{
+  "Products": [
+    {
+  "id": 1, 
+  "name": "iPhone 12 pro",    
+  "desc": "Good condition and 89% battery health",
+  "price": 45999, 
+  "color": "#33505a", 
+  "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7w9Sz-R1JSsnoZCPXG5BpPSsnF6xl5wv-A7eUoD4hkmnm-jS5MqDVD0m0fBeFevdcNtg&usqp=CAU"
+    },
+    {
+  "id": 2, 
+  "name": "iPhone 13 pro",    
+  "desc": "Brand new with warranty",
+  "price": 70999, 
+  "color": "#1c1c1c", 
+  "image":  "https://www.91-img.com/gallery_images_uploads/c/b/cbdaa34ea05b8ed2442e01404f66821703929b25.jpg?tr=h-630,c-at_max,q-80"
+    },
+    {
+    "id": 3, 
+  "name": "iPad pro",    
+  "desc": "2020 edition and 98% battery health",
+  "price": 36699, 
+  "color": "#f73984", 
+  "image":  "https://t1.gstatic.com/images?q=tbn:ANd9GcRdVSEEkTrOgF4AH8aUGKGEUfxm-w8mWY4PPLxUlLuvfEDKAWnt"
+    },
+    {
+      "id": 4, 
+    "name": "Pixel 5",    
+    "desc": "pixel 5th generation",
+    "price": 21900, 
+    "color": "#f73984", 
+    "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd0JhwLvm_uLDLc-la7hK9WyVpe9naJFcebKfhcICiq2KtvXDePNAU_9QO06LPcQ0K0fLByc7m&usqp=CAc"
+      },
+      {
+        "id": 5,
+        "name": "M1 Macbook Air",
+        "desc": "Brand new M1 chip",
+        "price": 85500,
+        "color": "#e0bfae",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMOMstwtmLnjFb3NHiDJ_kcQnueNVH-rv_3ps96HZmXlFumKWaiBqq_L4Uoyx3iFiNTrXNEbyB&usqp=CAc"
+      },
+      {
+        "id": 6,
+        "name": "Airpods Pro",
+        "desc": "Apple Aipods Pro 1st generation",
+        "price": 9999,
+        "color": "#e3e4e9",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROEs084z65psoo06zYl5R0tUzywOVKVQZzmzqCj3PDP1vVJTWv3gGwGMFENSy4qV4n7sEQjE&usqp=CAc"
+      },
+      {
+        "id": 7,
+        "name": "Galaxy S21 Ultra",
+        "desc": "2021 edition",
+        "price": 90999,
+        "color": "#f73984",
+        "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_PZcc0wicVYR992s5QCIDLYy8t-z-9kibTUdWZBN2sd86aaqdAJfhvxAwZNWV9wfdzDikpr1&usqp=CAc"
+      }
+    
+    ]
+}
